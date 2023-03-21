@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#ham {
+  display: none;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #ham {
+    display: inline-block;
+  }
+
+  .nav-li {
+    display: none;
+  }
+}
